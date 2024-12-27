@@ -31,7 +31,8 @@ export default function App() {
         <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src={user.avatar} />
           <Card.Body>
-            <Card.Title>{user.name}</Card.Title>
+            <Card.Img variant="top" src={user.image} />
+            <Card.Title>{user.firstName} {user.lastName}</Card.Title>
             <Card.Text>
               {user.email}
             </Card.Text>
